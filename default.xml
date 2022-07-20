@@ -84,4 +84,9 @@
   <project name="android_vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="xiaomi-sm8450-kernel"/>
   <project name="android_vendor_qcom_proprietary_mmrm-devicetree" path="vendor/qcom/proprietary/mmrm-devicetree" remote="xiaomi-sm8450-kernel"/>
   <project name="android_vendor_qcom_proprietary_video-devicetree" path="vendor/qcom/proprietary/video-devicetree" remote="xiaomi-sm8450-kernel"/>
+
+  <!-- Build script -->
+  <project name="kernel_platform_script-devicetree" path="kernel_platform/script" remote="xiaomi-sm8450-kernel">
+    <linkfile dest="build.sh" src="build.sh"/>
+  </project>
 </manifest>
