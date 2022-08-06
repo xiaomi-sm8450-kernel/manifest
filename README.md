@@ -7,7 +7,7 @@ Fortunately Xiaomi has released the kernel sources with the release of the devic
 ## How to build the kernel
 1. Intitalize your local repository using this manifest:
 ```
-repo sync --force-sync kernel_platform/build
+repo init -u https://github.com/xiaomi-sm8450-kernel/manifest.git -b zeus-s-oss
 ```
 2. Then to sync up:
 ```
